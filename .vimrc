@@ -10,4 +10,10 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry
 
+set number
+let g:gruvbox_contrast_dark = "medium"
+set t_Co=256
+set background=dark
 
+syntax enable
+colorscheme gruvbox
